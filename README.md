@@ -15,7 +15,7 @@ NeuralNet network = usingTrainingData("./test-data/iris.csv")  // (required) giv
 				 				.atMostIterations(1000)        // (optional) sets the maximum number of iterations to train (default: 100)
 				 				.withLearningRate(0.3)         // (optional) sets the learning rate (default: 0.3)
 				 				.train()                       // executes the training mechanism
-								.getNetwork();				  // get the trained network
+								.getNetwork();                 // get the trained network
 		
 // Step 2: create your input for prediction
 BumbleMatrixFactory factory = new BumbleMatrixFactory();
